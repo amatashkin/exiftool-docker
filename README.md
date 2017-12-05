@@ -3,7 +3,7 @@
 ## Clone this repository
 
 ```shell
-$ git clone git@github.com:Miljar/exiftool-docker.git && cd exiftool-docker
+$ git clone git@github.com:amatashkin/exiftool-docker.git && cd exiftool-docker
 ```
 
 ## Build container
@@ -15,7 +15,7 @@ $ docker build -t exiftool .
 ## Run container
 
 ```shell
-$ docker run -v "$PWD":/tmp exiftool <image>
+$ docker run -v ${PWD}:/tmp exiftool <image>
 ```
 
 ## Optionally create alias
