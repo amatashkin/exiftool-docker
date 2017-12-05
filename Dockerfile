@@ -1,4 +1,4 @@
-FROM alpine:3.3
+FROM alpine:latest
 MAINTAINER Alexey Matashkin
 
 ENV EXIFTOOL_VERSION=10.20
