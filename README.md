@@ -27,6 +27,6 @@ $ exiftool <image>
 Powershell function. Works start from the same directory as an image.
 
 ```powershell
-> function exiftool {docker run --rm -v ${PWD}:/tmp exiftool (Split-Path -Path $args[0] -Leaf -Resolve)}
+> function exiftool {docker run --rm -v ${PWD}:/tmp exiftool $args}
 > exiftool <image>
 ```
