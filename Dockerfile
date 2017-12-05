@@ -1,5 +1,5 @@
 FROM alpine:3.3
-MAINTAINER Tom Van Herreweghe
+MAINTAINER Alexey Matashkin
 
 ENV EXIFTOOL_VERSION=10.20
 
